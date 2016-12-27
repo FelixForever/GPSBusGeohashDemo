@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="result"
+        android:textSize="16sp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+
+        <Button
+            android:id="@+id/btn_select_no_sqrt"
+            android:layout_columnWeight="1"
+            android:text="select normal"/>
+
+        <Button
+            android:id="@+id/btn_select_gps_index"
+            android:layout_columnWeight="1"
+            android:text="gps index"/>
+
+        <Button
+            android:id="@+id/btn_select_geo_java"
+            android:layout_columnWeight="1"
+            android:text="geohash"/>
+
+        <Button
+            android:id="@+id/btn_select_geo_c"
+            android:layout_columnWeight="1"
+            android:visibility="gone"
+            android:text="geohash c"/>
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_columnWeight="1"
+            android:text="del all"
+            android:visibility="gone"/>
+
+
+        <Button
+            android:id="@+id/btn_select_nomal"
+            android:layout_columnWeight="1"
+            android:text="select normal"
+            android:visibility="gone"/>
+
+    </GridLayout>
+
+    <ListView
+        android:id="@+id/lv_station"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
