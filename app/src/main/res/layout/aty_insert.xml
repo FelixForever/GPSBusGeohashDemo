@@ -14,7 +14,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="100000"
+        android:hint="插入条数"
         android:padding="8dp"
         android:text="100000"
         android:textSize="16sp"/>
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="insert with java index"
+            android:text="insert"
             />
     </LinearLayout>
 
@@ -83,21 +83,21 @@
             android:id="@+id/btn_select_no_sqrt"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="sel no squt"
+            android:text="select normal"
             />
 
         <Button
             android:id="@+id/btn_select_gps_index"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="gps index"
+            android:text="select gps index"
             />
 
         <Button
             android:id="@+id/btn_select_geo_java"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="geohash java"
+            android:text="select geohash"
             />
 
         <Button

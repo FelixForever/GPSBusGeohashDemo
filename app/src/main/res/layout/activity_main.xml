@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="效率测试"/>
+            android:text="重新插入数据"/>
 
         <Button
             android:id="@+id/btn_check"
@@ -36,6 +36,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
-            android:text="数据正确性测试"/>
+            android:text="数据展示及效果"/>
     </LinearLayout>
 </RelativeLayout>
